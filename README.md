@@ -7,6 +7,7 @@ It is now perfect for extract Stable Diffusion image.
 It can also get otehr image info from other AI image.
 # Support AI image
 - [x] Stable diffusion
+- [x] Naifu(4chan ver)
 # How to use
 * import
   * import image you like it will extract info and show in text box.
