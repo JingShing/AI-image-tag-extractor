@@ -7,7 +7,7 @@
 這個工具也能幫你獲得其他AI圖片資訊。
 # 目前支持的AI圖片
 - [x] Stable diffusion
-- [x] Naifu(4chan ver)
+- [x] Naifu(4chan版本)
 # 如何使用
 * import
   * 導入想提取資訊的圖片，它會幫忙提取出資訊，並填到文字框中。
@@ -29,3 +29,4 @@
 * 可以導入圖片得到圖片資訊。
 * 可以儲存圖片資訊。
 * 可以支持 stable-diffusion。
+* 可以支持 Naifu(4chan版本)。
