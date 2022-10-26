@@ -15,7 +15,7 @@
 # 範例圖片
 這個圖片是用 Stable diffusion 生成的。將會作為下方展示的範例圖片。
 
-![test](sample/test.png)
+![test](/sample/stable-diffusion-test.png)
 # UI
 ![UI](image/UI.png)
 # After import image file
