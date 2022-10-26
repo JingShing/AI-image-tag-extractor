@@ -29,3 +29,4 @@ It is spawn by Stable diffusion. And it is sample for showcase below.
 * can import image and get image info.
 * can save image info
 * can support stable-diffusion
+* can support Naifu(4chan ver)
