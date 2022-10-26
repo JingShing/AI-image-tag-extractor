@@ -5,7 +5,7 @@ A tool to help you get image info.
 It is now perfect for extract Stable Diffusion image.
 
 It can also get otehr image info from other AI image.
-# Support image
+# Support AI image
 - [x] Stable diffusion
 # How to use
 * import
