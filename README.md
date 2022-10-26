@@ -15,7 +15,7 @@ It can also get otehr image info from other AI image.
 # Sample Image
 It is spawn by Stable diffusion. And it is sample for showcase below.
 
-![test](sample/test.png)
+![test](/sample/stable-diffusion-test.png)
 # UI
 ![UI](image/UI.png)
 # After import image file
