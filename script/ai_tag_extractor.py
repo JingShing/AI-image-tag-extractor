@@ -83,14 +83,18 @@ class page_module(Frame):
         else:
             self.data_dict['spell'] = text
         self.get_info()
+        self.text_clear()
+        if self.data_dict['spell'] != '':
+            self.all_text.insert(END, self.data_dict['spell'])
+            self.prompt_text.insert(END, self.data_dict['prompt'])
+            self.negative_text.insert(END, self.data_dict['negative'])
+            self.parameter_text.insert(END, self.data_dict['parameter'])
+
+    def text_clear(self):
         self.all_text.delete(1.0, 'end')
-        self.all_text.insert(END, self.data_dict['spell'])
         self.prompt_text.delete(1.0, 'end')
-        self.prompt_text.insert(END, self.data_dict['prompt'])
         self.negative_text.delete(1.0, 'end')
-        self.negative_text.insert(END, self.data_dict['negative'])
         self.parameter_text.delete(1.0, 'end')
-        self.parameter_text.insert(END, self.data_dict['parameter'])
 
     def get_info(self):# use info dict to get info
         if 'Title' in self.novelai_dict:# for novelai image
@@ -98,20 +102,24 @@ class page_module(Frame):
             self.data_dict['negative'] = self.novelai_dict['Comment'].split('uc')[-1].replace('"}', '').replace('"', '').replace(": ", '')
             self.data_dict['parameter'] = self.novelai_dict['Comment'].replace(self.data_dict['negative'], '').replace('"', '').replace("{", "").replace("}", "")
         else:# for naifu or stable-diffusion image
-            info = self.data_dict['spell'].replace("parameters\n","").replace("Negative prompt: ", "").split("\n")
-            self.data_dict['prompt']=info[0]
-            self.data_dict['negative']=info[1]
-            self.data_dict['parameter']=info[2]
+            if len(self.data_dict['spell'])>0:# to keep no spell
+                info = self.data_dict['spell'].replace("parameters\n","").replace("Negative prompt: ", "").split("\n")
+                self.data_dict['prompt']=info[0]
+                self.data_dict['negative']=info[1]
+                self.data_dict['parameter']=info[2]
 
     def dict_to_text(self, dict1):# change info dict to txt format
         self.data_dict['spell'] = ''
-        for key in dict1:
-            self.data_dict['spell']+=key + '\n'
-            self.data_dict['spell']+=dict1[key] + '\n'
+        if dict1:
+            for key in dict1:
+                if type(key) == str and type(dict1[key])==str:# to keep weird type
+                    self.data_dict['spell']+=key + '\n'
+                    self.data_dict['spell']+=dict1[key] + '\n'
 
     def import_set(self):# import image to get info
         set_path = filedialog.askopenfilename(filetypes = (("png file","*.png"),("all files","*.*")))
         if set_path:
+            self.text_clear()# now will clear text box after import
             im = Image.open(set_path)
             im.load()
             self.data_dict['file_name'] = set_path.split('/')[-1].split('.')[0]
