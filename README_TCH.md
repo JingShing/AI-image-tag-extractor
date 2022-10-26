@@ -17,7 +17,12 @@
 # 範例圖片
 這個圖片是用 Stable diffusion 生成的。將會作為下方展示的範例圖片。
 
-![test](/sample/stable-diffusion-test.png)
+## Stable-diffusion 圖片
+![test-stable-diffusion](/sample/stable-diffusion-test.png)
+## Naifu(4chan 版本) 圖片
+![test-naifu](/sample/naifu-sample.png)
+## NovelAI 圖片
+![test-novelai](/sample/novelai-sample.png)
 # UI
 ![UI](image/UI.png)
 # After import image file
