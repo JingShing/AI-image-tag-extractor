@@ -1,3 +1,4 @@
+English | [繁體中文](README_TCH)
 # NovelAI-tag-extractor
 A tool to help you get image info.
 
