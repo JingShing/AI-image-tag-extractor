@@ -43,3 +43,5 @@ It is spawn by Stable diffusion. And it is sample for showcase below.
 * can support Naifu(4chan ver)
 ## ver 1.1
 * now it can support NovelAI image
+## ver 1.1.1
+* fixed wrong file format import run time error.
