@@ -22,3 +22,9 @@ It is spawn by Stable diffusion. And it is sample for showcase below.
 ![import](image/import.png)
 # Save to txt
 ![save](image/save_txt.png)
+
+# Log
+## ver 1.0
+* can import image and get image info.
+* can save image info
+* can support stable-diffusion
