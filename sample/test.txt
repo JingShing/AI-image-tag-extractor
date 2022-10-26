@@ -1,4 +1,0 @@
-parameters
-extremely detailed CG unity 8k wallpaper, high quality, flat color, 4 years old, a beautiful lovely sweet cute loli girl, black and red cloak, red pupil, white hair, not face viewer, cold attitude, bowtie, nude
-Negative prompt: lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, bad feet
-Steps: 20, Sampler: Euler a, CFG scale: 7, Seed: 1263451577, Size: 512x512, Model hash: 925997e9
