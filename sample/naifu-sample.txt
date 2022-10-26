@@ -1,0 +1,15 @@
+parameters
+((masterpiece)), ((ultra-detailed)), ((illustration)), 1 girl,solo,highly detailed,extremely detailed CG unity 8k wallpaper,
+(Brilliant starry sky),wind,((cinematic lighting)),cinematic angle,((beautiful detailed face)),(Gradient color eyes),
+(Jewel-like eyes),(beautiful detailed eyes),(Eyes highlight),
+((among blue-purple flowers)),(beautiful detailed hands),(Hands covered by flowers),Blur hands,(Hide hands),arm_support,(Flowers blooming),((Colorful plumage)), ribbons, ,hair_bow,lacy,long_sleeves,buttons, pleated skirt,cross-laced foot_wear,
+detailed wet clothes,Cold smile,((disheveled hair)),good lighting,glass tint,
+flowing hair, glossy hair, Silky hair, ((frills)),  (big top sleeves), floating, overexposure,Random pose, hairs between eyes,
+ flowers,
+(beautiful detailed sky), CG,misty,posing sketch,
+(oil painting),Thick coating,first-person view
+,hair dripping,cold and elegant
+Negative prompt: nsfw, owres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped,
+ worst quality, low quality, normal quality, jpeg artifacts, signature, watermark,
+ username, blurry,missing fingers,bad hands,missing arms, long neck, Humpbacked
+Steps: 45, Sampler: Euler, CFG scale: 4.5, Seed: 2593613875, Size: 1024x768, Model hash: e6e8e1fc, Eta: 0.68, Clip skip: 2, ENSD: 31337

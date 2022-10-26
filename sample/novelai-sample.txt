@@ -1,0 +1,10 @@
+Title
+AI generated image
+Description
+ masterpiece, best quality, atmosphere, delicate, extremely detailed, extremely detailed CG unity 8k wallpaper, (1male) ,good anatomy, pale skin,short light blue hair with long side bangs, yellow eyes, evil smile,white very long jacket, white clothes,dark tone art, alchemical room
+Software
+NovelAI
+Source
+Stable Diffusion 1D44365E
+Comment
+{"steps": 28, "sampler": "k_euler_ancestral", "seed": 3444734261, "strength": 0.69, "noise": 0.667, "scale": 11.0, "uc": "lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, bad feet, futa, futanari, yaoi,huge_breasts, large_breasts"}
