@@ -22,3 +22,9 @@
 ![import](image/import.png)
 # Save to txt
 ![save](image/save_txt.png)
+
+# 紀錄
+## 版本 1.0
+* 可以導入圖片得到圖片資訊。
+* 可以儲存圖片資訊。
+* 可以支持 stable-diffusion。
