@@ -27,8 +27,13 @@
 ![UI](image/UI.png)
 # After import image file
 ![import](image/import.png)
-# Save to txt
+# 保存成 txt
+## stable-diffusion 格式
 ![save](image/save_txt.png)
+## Naifu(4chan ver) 格式
+![save_naifu](image/save_txt_naifu.png)
+## NovelAI 格式
+![save](image/save_txt_novelai.png)
 
 # 紀錄
 ## 版本 1.0
