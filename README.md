@@ -8,6 +8,7 @@ It can also get otehr image info from other AI image.
 # Support AI image
 - [x] Stable diffusion
 - [x] Naifu(4chan ver)
+- [x] NovelAI
 # How to use
 * import
   * import image you like it will extract info and show in text box.
@@ -30,3 +31,5 @@ It is spawn by Stable diffusion. And it is sample for showcase below.
 * can save image info
 * can support stable-diffusion
 * can support Naifu(4chan ver)
+## ver 1.1
+* now it can support NovelAI image
