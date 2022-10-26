@@ -28,7 +28,12 @@ It is spawn by Stable diffusion. And it is sample for showcase below.
 # After import image file
 ![import](image/import.png)
 # Save to txt
+## stable-diffusion format
 ![save](image/save_txt.png)
+## Naifu(4chan ver) format
+![save_naifu](image/save_txt_naifu.png)
+## NovelAI format
+![save](image/save_txt_novelai.png)
 
 # Log
 ## ver 1.0
