@@ -1,10 +1,10 @@
-English | [繁體中文](README_TCH)
-# NovelAI-tag-extractor
+English | [繁體中文](README_TCH.md)
+# AI-image-tag-extractor
 A tool to help you get image info.
 
 It is now perfect for extract Stable Diffusion image.
 
-It can also get otehr png info for other AI image.
+It can also get otehr image info for other AI image.
 # Sample Image
 It is spawn by Stable diffusion. And it is sample for showcase below.
 
