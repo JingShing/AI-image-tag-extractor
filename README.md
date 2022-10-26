@@ -16,8 +16,13 @@ It can also get otehr image info from other AI image.
   * it will save a same file name as your image txt file in the same folder of your exe.
 # Sample Image
 It is spawn by Stable diffusion. And it is sample for showcase below.
+## Stable-diffusion image
+![test-stable-diffusion](/sample/stable-diffusion-test.png)
+## Naifu(4chan ver) image
+![test-naifu](/sample/naifu-sample.png)
+## NovelAI image
+![test-novelai](/sample/novelai-sample.png)
 
-![test](/sample/stable-diffusion-test.png)
 # UI
 ![UI](image/UI.png)
 # After import image file
