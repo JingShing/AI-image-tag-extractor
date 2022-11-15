@@ -48,4 +48,4 @@ It is spawn by Stable diffusion. And it is sample for showcase below.
 ## ver 1.2
 * add clear button
 * add status
-* ![add_clear](image/add_clear.png)
+* ![add_clear](sample/add_clear.png)
