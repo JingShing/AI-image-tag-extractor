@@ -24,7 +24,7 @@
 ## NovelAI 圖片
 ![test-novelai](/sample/novelai-sample.png)
 # UI
-![UI](image/UI.png)
+![UI](image/add_clear.png)
 # After import image file
 ![import](image/import.png)
 # 保存成 txt
