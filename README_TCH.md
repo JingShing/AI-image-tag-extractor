@@ -45,3 +45,7 @@
 * 現在支持 NovelAI 官網圖片的格式。
 ## 版本 1.1.1
 * 修復導入錯誤檔案的 run time error。
+## 版本 1.2
+* 新增清除按鈕
+* 新增狀態提示
+* ![add_clear](image/add_clear.png)
