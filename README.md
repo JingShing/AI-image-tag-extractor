@@ -24,7 +24,7 @@ It is spawn by Stable diffusion. And it is sample for showcase below.
 ![test-novelai](/sample/novelai-sample.png)
 
 # UI
-![UI](image/UI.png)
+![UI](image/add_clear.png)
 # After import image file
 ![import](image/import.png)
 # Save to txt
@@ -45,3 +45,7 @@ It is spawn by Stable diffusion. And it is sample for showcase below.
 * now it can support NovelAI image
 ## ver 1.1.1
 * fixed wrong file format import run time error.
+## ver 1.2
+* add clear button
+* add status
+* ![add_clear](image/add_clear.png)
