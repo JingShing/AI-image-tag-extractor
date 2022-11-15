@@ -1,9 +1,7 @@
-from genericpath import isfile
 from tkinter import *
 from tkinter.ttk import *
 from tkinter import messagebox
 from tkinter import filedialog
-import os
 from PIL import Image
 
 def load_spell_list(path):
